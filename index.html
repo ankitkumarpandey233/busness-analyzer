@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SWOT Analysis Generator</title>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+
+<body>
+  <main>
+    <h1>Generate SWOT Analysis</h1>
+    <form>
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter your business idea here" type="text">
+        </label>
+        <button type="submit">Generate</button>
+      </div>
+    </form>
+    <p class="output">(Results will appear here)</p>
+    <button id="next-step-btn" style="display: none;">Next Step</button>
+    <p class="next-steps"></p>
+    <button id="download-btn" style="display: none;">Download PDF</button>
+    <div class="related-links"></div>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
